@@ -1,14 +1,14 @@
 ﻿
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
+let userID = '36074f81-0d83-482c-a496-573a3a86315e';
 let proxyIP = '';
 //let sub = '';
 let subConverter = atob('U3ViQXBpLkNtbGlVc3NzUy5OZXQ=');
 let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvY29uZmlnL0FDTDRTU1JfT25saW5lX01pbmlfTXVsdGlNb2RlLmluaQ==');
 let subProtocol = 'https';
 let subEmoji = 'true';
-let socks5Address = '';
+let socks5Address = 'yhmf0oX0YgT3a:mmLyY6tLLxwc@kr-amd-v6-01.101383.xyz:55200';
 let parsedSocks5Address = {};
 let enableSocks = false;
 let enableHttp = false;
@@ -5812,4 +5812,5 @@ async function handleWebSocket(request) {
         status: 101,
         webSocket: client
     });
+
 }
